@@ -1,6 +1,6 @@
 # Eichhörnchen-Website-Projekt
 
-Dieses Repository enthält meine Projektergebnisse aus dem HTML-CSS-Kurs der [WBS Weiterbildung Content Marketing][def] aus dem Jahr 2022. Das Projektziel war die Erstellung einer statischen Website über Eichhörnchen mit HTML5 und CSS3.
+Dieses Repository enthält meine Projektergebnisse aus dem HTML-CSS-Kurs der [WBS Weiterbildung Content Marketing][def] aus dem Jahr 2022. Das Projektziel war die Erstellung einer statischen Website über Eichhörnchen mit HTML5 und CSS3.[^1]
 
 ## Projektbeschreibung
 
@@ -36,3 +36,5 @@ Der Projektordner wurde mit den notwendigen HTML-Dateien und einer CSS-Datei vor
 
 [def]: [https://www.wbstraining.de/kurse/weiterbildung/digital-marketing/]
 [def2]: [https:/den.wikipedia.org/wikiEurasisches_Eichhörnchen/]
+
+[^1]: Quelle: https://de.wikipedia.org/wiki/Eurasisches_Eichh%C3%B6rnchen
