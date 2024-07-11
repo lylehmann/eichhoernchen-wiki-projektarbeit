@@ -12,7 +12,7 @@ body {
   color: #555;
   background-color: gainsboro;
 
-  font-family: "Baloo 2", sans-serif;
+  font-family: 'San Francisco', Helvetica, Arial, san-serif;
   min-height: 100vh;
   height: 100%;
   display: -ms-grid;
@@ -68,6 +68,7 @@ h2 {
 
 h3{
   font-size: 2.074rem;
+  font-weight: semi-bold;
   text-align: left;
   color: #555;
 }
