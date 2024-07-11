@@ -4,7 +4,7 @@ Dieses Repository enthält meine Projektergebnisse aus dem HTML-CSS-Kurs der WBS
 
 ## Projektbeschreibung
 
-Die Website besteht aus mindestens 3 Seiten über Eurasische Eichhörnchen und verwendet Inhalte von Wikipedia [^2] sowie bereitgestellte Bilder.
+Die Website besteht aus mindestens 3 Seiten über Eurasische Eichhörnchen und verwendet Inhalte von Wikipedia[^2] sowie bereitgestellte Bilder.
 
 ### Anforderungen
 
@@ -34,6 +34,6 @@ Der Projektordner enthält:
 
 Der Projektordner wurde mit den notwendigen HTML-Dateien und einer CSS-Datei vorbereitet. Die HTML-Dateien verfügten bereits über ein HTML-Grundgerüst und waren mit der beiliegenden CSS-Datei verknüpft. Der img-Ordner wurde für die Bilder genutzt. Sofern der Webauftritt aus mehr als 3 Seiten besteht, wurden weitere HTML-Dateien angelegt.
 
-[^1]: [https://www.wbstraining.de/kurse/weiterbildung/digital-marketing/]
+[^1]: [WBS Weiterbildung Content Marketing](https://www.wbstraining.de/kurse/weiterbildung/digital-marketing/)
 
-[^2]: [https:/de.wikipedia.org/wikiEurasisches_Eichhörnchen/]
+[^2]: [Wikipedia](https:/de.wikipedia.org/wikiEurasisches_Eichhörnchen/)
