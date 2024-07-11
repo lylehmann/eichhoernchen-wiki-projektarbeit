@@ -44,7 +44,7 @@ header {
 main {
   padding: 0 3rem;
   position: relative;
-  max-width: 450rem;
+  max-width: 100%;
   margin: 1rem auto;
 }
 
@@ -54,35 +54,35 @@ main:last-child {
   }
 
 h1 {
-  font-size: calc(9px + 3vw);
+  font-size: 2.986rem;
   text-align: left;
   color: #fff;
   padding-left: calc(1px + 1vw);
 }
 
 h2 {
-  font-size: calc(9px + 2vw);
+  font-size: 2.488rem;
   text-align: left;
   color: #555;
 }
 
 h3{
-  font-size: calc(8px + 1.5vw);
+  font-size: 2.074rem;
   text-align: left;
   color: #555;
 }
 
 h4 {
-  font-size: calc(7px + 1vw);
+  font-size: 1.728rem;
   text-align: left;
   color: #555;
 }
 
 a{
-  font-size: calc(6px + 0.5vw);
+  font-size: 1rem;
   text-decoration: none;
   color: #555;
-  font-weight: bold;
+  font-weight: regular;
 }
 
 a:hover {
@@ -134,7 +134,7 @@ details[open] > *:not(summary) { color: inherit; }
 details.style2 summary::before {
   content: "×";
   color: #FFF;
-  font-size: calc(13px + 0.5vw);
+  font-size: 1rem;
   line-height: 1rem;
   transform: rotate(-45deg);
   top: 1.2rem;
@@ -149,7 +149,7 @@ details[open].style2 > summary:before {
 /* # Style 3 # */
 details.style3 summary::before {
   content: "›";
-  font-size: calc(13px + 0.5vw);
+  font-size: 1rem;
   line-height: 1rem;
   top: 1.3rem;
   left: 0rem;
@@ -180,7 +180,7 @@ details.style4 summary {
 details.style4 summary::before {
   content: "×";
   color: #FFF;
-  font-size: calc(13px + 0.5vw);
+  font-size: 1rem;
   line-height: 1rem;
   transform: rotate(-45deg);
   top: 1.2rem;
@@ -200,7 +200,7 @@ details.style5 summary {
 }
 details.style5 summary::before {
   content: "🙈";
-  font-size: calc(13px + 0.5vw);
+  font-size: 1rem;
   top: 0.5rem;
   left: unset;
   right: 0.5rem;
@@ -228,7 +228,7 @@ details.style6 summary {
 }
 details.style6 summary::before {
   content: "❔";
-  font-size: calc(13px + 0.5vw);
+  font-size: 1rem;
   top: 0.5rem;
   left: unset;
   right: 0.5rem;
@@ -258,7 +258,7 @@ details.style7:hover summary strong {
 details.style7:hover summary strong { color: #ffdf87; }
 details.style7 summary::before {
   content: "🌑";
-  font-size: calc(13px + 0.5vw);
+  font-size: 1rem;
   top: 0.5rem;
   left: 0.5rem;
   transform: rotate(0);
@@ -293,12 +293,13 @@ details {
 }
 
 details ul, details p, details a{
-  font-size: calc(6px + 1vw) !important;
+  font-size: 1rem !important;
+  padding-left: 1rem;
 }
 
 summary {
-  /*border: 4px solid transparent;*/
-  outline: none;
+  /*border: 4px solid transparent;
+  */outline: none;
   padding: 1rem;
   display: block;
   background: #ccc;
@@ -306,7 +307,8 @@ summary {
   padding-left: 2.2rem;
   position: relative;
   cursor: pointer;
-  font-size: calc(5px + 0.8vw);
+  font-size: 1rem;
+  font-weight: bold;
 }
 details[open] summary,
 summary:hover {
@@ -330,25 +332,25 @@ details[open] summary::before {
 }
 
 figcaption{
-  font-size: calc(6px + 0.5vw);
+  font-size: 0.833rem;
   text-align: left;
   margin-top: 0.7rem;
 }
 
 figcaption::before{
   content: "Abb.: ";
-  font-size: calc(6px + 0.5vw);
+  font-size: 0.833rem;
 }
 
 .figcaption{
-  font-size: calc(6px + 0.5vw);
+  font-size: 0.833rem;
   text-align: left;
   margin-top: 0.7rem;
 }
 
 .figcaption::before{
   content: "Abb.: ";
-  font-size: calc(6px + 0.5vw);
+  font-size: 0.833rem;
 }
 
 
@@ -361,7 +363,7 @@ img{
 }
 
 p {
-  font-size: calc(1px + 1vw);
+  font-size: 1rem;
   line-height: 1.5;
 }
 
@@ -491,7 +493,7 @@ table {
 }
 
 .column h2 {
-  font-size: calc(7px + 0.35vw);
+  font-size: 2.488rem;
   /*padding: 0 16px 8px;*/
 }
 
@@ -507,19 +509,19 @@ table {
 }
 
 .column-left h2{
-  font-size: calc(9px + 1vw);
+  font-size: 2.488rem;
 }
 
 .column-left h3{
-  font-size: calc(8px + 0.7vw);
+  font-size: 2.074rem;
 }
 
 .column-left p{
-  font-size: calc(7px + 0.8vw);
+  font-size: 1rem;
 }
 
 .column-left a{
-  font-size: calc(7px + 0.8vw);
+  font-size: 1rem;
 }
 
 .column-right {
@@ -532,7 +534,7 @@ table {
 }
 
 .column-right h2{
-  font-size: calc(4px + 1vw);
+  font-size: 2.488rem;
   text-align:left;
   /*padding: calc(2px+1vw) 1px;*/
 }
@@ -542,21 +544,21 @@ table {
 }*/
 
 .column-right h3{
-  font-size: calc(3px + 1vw);
+  font-size: 2.074rem;
   text-align:left;
   /*padding: calc(2px+1vw) 10px 0px 10px;
   margin: calc(1px + 1vw) 0px calc(-20px + 2vw) 0px;*/
 }
 
 .column-right p{
-  font-size: calc(2px + 0.8vw);
+  font-size: 1rem;
   text-align:left;
 }
 
 .column-right span {
   font-style: italic;
   font-weight: bold;
-  font-size: calc(2px + 0.8vw);
+  font-size: 1rem;
 }
 
 .column .image {
@@ -620,7 +622,7 @@ table {
 .nav button a{
     display: block;
     color: #fff;
-    font-size:calc(8px + 0.20vw);
+    font-size:1rem;
     text-align: center;
     padding: calc(1px + 0.9vw);
     text-decoration: none;
@@ -662,7 +664,7 @@ table {
 
 .wrapper {
   width: 100%;
-  max-width: 980px;
+  max-width: 1280px;
   margin: calc(1px + 1vw) auto;
   padding: 1px;
 }
