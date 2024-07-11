@@ -55,6 +55,7 @@ main:last-child {
 
 h1 {
   font-size: 2.986rem;
+  font-weight: 800;
   text-align: left;
   color: #fff;
   padding-left: calc(1px + 1vw);
@@ -62,19 +63,21 @@ h1 {
 
 h2 {
   font-size: 2.488rem;
+  font-weight: 700;
   text-align: left;
   color: #555;
 }
 
 h3{
   font-size: 2.074rem;
-  font-weight: semi-bold;
+  font-weight: 600;
   text-align: left;
   color: #555;
 }
 
 h4 {
   font-size: 1.728rem;
+  font-weight: 500;
   text-align: left;
   color: #555;
 }
