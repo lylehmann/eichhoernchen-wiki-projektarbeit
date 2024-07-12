@@ -296,9 +296,15 @@ details {
   background: white;
 }
 
-details ul, details p, details a{
+details ul, details p, details a,{
   font-size: 1rem !important;
   padding-left: 1rem;
+}
+
+details figcaption{
+  font-size: 0.833rem;
+  text-align: left;
+  margin-top: 0.7rem; /* Gewünschte Schriftgröße hier einfügen */
 }
 
 summary {
@@ -314,6 +320,7 @@ summary {
   font-size: 1rem;
   font-weight: bold;
 }
+
 details[open] summary,
 summary:hover {
   color: #b16845;
@@ -338,7 +345,12 @@ details[open] summary::before {
 figcaption{
   font-size: 0.833rem;
   text-align: left;
+  margin-top: 0.7rem; /* Gewünschte Schriftgröße hier einfügen */
+}
+figcaption a{
+  text-align: left;
   margin-top: 0.7rem;
+  color: #b16845;
 }
 
 figcaption::before{
@@ -356,7 +368,6 @@ figcaption::before{
   content: "Abb.: ";
   font-size: 0.833rem;
 }
-
 
 img{
   width: 100%;
