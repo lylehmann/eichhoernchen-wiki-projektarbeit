@@ -301,7 +301,7 @@ details ul, details p, details a,{
   padding-left: 1rem;
 }
 
-details figcaption{
+details figcaption, figcaption a{
   font-size: 0.833rem;
   text-align: left;
   margin-top: 0.7rem; /* Gewünschte Schriftgröße hier einfügen */
@@ -539,6 +539,10 @@ table {
   font-size: 1rem;
 }
 
+.column-left figcaption a{
+  font-size: 0.833rem;
+}
+
 .column-right {
   flex: 0.3;
   flex-shrink: 0.9;
@@ -644,6 +648,10 @@ table {
     background-color: #333;
 }
 
+footer a{
+  color: #fff;
+}
+
 .footer{
   text-align: center;
   margin: 10px;
@@ -682,6 +690,53 @@ table {
   max-width: 1280px;
   margin: calc(1px + 1vw) auto;
   padding: 1px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 @media screen and (max-width: 992px) {
